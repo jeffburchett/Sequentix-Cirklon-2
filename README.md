@@ -10,7 +10,7 @@
 
 <h3>Templt_CK</h3>
 
-<<p>This is a template for P3 pattern-default devices. It contains all the available machine parameters (e.g., MIDI port, No FTS, etc.), and has included CC Defs for CCs 0-127. Additionally, it contains two pages of MIDI track value slots and two additional pages of Track Values spanning all the available built-in Track Controls. </p>
+<p>This is a template for P3 pattern-default devices. It contains all the available machine parameters (e.g., MIDI port, No FTS, etc.), and has included CC Defs for CCs 0-127. Additionally, it contains two pages of MIDI track value slots and two additional pages of Track Values spanning all the available built-in Track Controls. </p>
 
 <h3>Roland TR-8S drum machine</h3>
 
