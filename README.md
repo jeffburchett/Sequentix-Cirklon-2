@@ -4,6 +4,14 @@
 
 <hr>
 
+<h3>Templt_CK</h3>
+
+<p>This is a template for CK pattern-default devices. It contains all the available machine parameters (e.g., MIDI port, No FTS, etc.), and has included CC Defs for CCs 0-127. Additionally, it contains two pages of MIDI track value slots and two additional pages of Track Values spanning all the available built-in Track Controls. Finally, it contains eight Row Defs that can be used as the basis of a chromatic or drum machine layout in CK mode.</p>
+
+<h3>Templt_CK</h3>
+
+<p>This is a template for P3 pattern-default devices. It contains all the available machine parameters (e.g., MIDI port, No FTS, etc.), and has included CC Defs for CCs 0-127. Additionally, it contains two pages of MIDI track value slots and two additional pages of Track Values spanning all the available built-in Track Controls. </p>
+
 <h3>Roland TR-8S drum machine</h3>
 
 <p>Spot-tested and working on firmware v3.0, but MIDI CCs have not been thoroughly QAed.</p>
