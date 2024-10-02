@@ -12,6 +12,10 @@
 
 <p>This is a template for P3 pattern-default devices. It contains all the available machine parameters (e.g., MIDI port, No FTS, etc.), and has included CC Defs for CCs 0-127. Additionally, it contains two pages of MIDI track value slots and two additional pages of Track Values spanning all the available built-in Track Controls. </p>
 
+<h3>Alesis SR-16 drum machine</h3>
+
+<p>Spot-tested and working.</p>
+
 <h3>Roland TR-8S drum machine</h3>
 
 <p>Spot-tested and working on firmware v3.0, but MIDI CCs have not been thoroughly QAed.</p>
