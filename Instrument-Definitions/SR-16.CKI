@@ -1,0 +1,50 @@
+{
+	"instrument_data" :
+	{
+		"SR-16" :
+		{
+			"midi_port" : 1,
+			"midi_chan" : 10,
+			"default_note" : "C 3",
+			"default_patt" : "CK",
+			"poly_spread" : "off",
+			"no_fts" : true,
+			"track_values" :
+			{
+				"slot_1" : { "track_control" : "pgm" },
+				"slot_2" : { "track_control" : "quant%" },
+				"slot_3" : { "track_control" : "note%" },
+				"slot_4" : { "track_control" : "noteC" },
+				"slot_5" : { "track_control" : "velo%" },
+				"slot_6" : { "track_control" : "veloC" },
+				"slot_7" : { "track_control" : "leng%" },
+				"slot_8" : { "track_control" : "tbase" },
+				"slot_9" : { "track_control" : "octave" },
+				"slot_10" : { "track_control" : "knob1" },
+				"slot_11" : { "track_control" : "knob2" }
+			},
+			
+			"CC_defs" :
+			{
+				"CC_0" : { "label" : "MSBSel", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_32" : { "label" : "LSBSel", "min_val" : 0, "max_val" : 127, "start_val" : 0 }
+			},
+			
+			"row_defs" :
+			{
+				"C 3" : { "label" : "BD ", "always_show" : true },
+				"D 3" : { "label" : "SD ", "always_show" : true },
+				"D#3" : { "label" : "HC ", "always_show" : true },
+				"F 3" : { "label" : "TM3", "always_show" : true },
+				"F#3" : { "label" : "CH ", "always_show" : true },
+				"A 3" : { "label" : "TM2", "always_show" : true },
+				"A#3" : { "label" : "OH ", "always_show" : true },
+				"C 4" : { "label" : "TM1", "always_show" : true },
+				"C#4" : { "label" : "CC ", "always_show" : true },
+				"D#4" : { "label" : "RC ", "always_show" : true },
+				"F 5" : { "label" : "PC1", "always_show" : true },
+				"G 5" : { "label" : "PC2", "always_show" : true }
+			}
+		}
+	}
+}
