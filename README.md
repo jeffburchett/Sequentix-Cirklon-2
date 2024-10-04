@@ -16,6 +16,14 @@
 
 <p>Spot-tested and working.</p>
 
+<h3>Alesis SR-18 drum machine</h3>
+
+<p>Spot-tested and working for drums. Bass part not included in definition.</p>
+
+<h3>KORG opsix Altered FM Synthesizer</h3>
+
+<p>Spot-tested and working on firmware v2.0.0, but MIDI CCs have not been thoroughly QAed.</p>
+
 <h3>Roland TR-8S drum machine</h3>
 
 <p>Spot-tested and working on firmware v3.0, but MIDI CCs have not been thoroughly QAed.</p>
