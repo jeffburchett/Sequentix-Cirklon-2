@@ -1,9 +1,9 @@
 {
 	"instrument_data" :
 	{
-		"SR-16" :
+		"SR-18" :
 		{
-			"midi_port" : 5,
+			"midi_port" : 1,
 			"midi_chan" : 10,
 			"default_note" : "C 3",
 			"default_patt" : "CK",
@@ -33,17 +33,17 @@
 			"row_defs" :
 			{
 				"C 3" : { "label" : "BD ", "always_show" : true },
-				"D 3" : { "label" : "SD ", "always_show" : true },
-				"D#3" : { "label" : "HC ", "always_show" : true },
+				"C#3" : { "label" : "SD2", "always_show" : true },
+				"D 3" : { "label" : "SD1", "always_show" : true },
 				"F 3" : { "label" : "TM3", "always_show" : true },
 				"F#3" : { "label" : "CH ", "always_show" : true },
-				"A 3" : { "label" : "TM2", "always_show" : true },
+				"G#3" : { "label" : "HOH", "always_show" : true },
 				"A#3" : { "label" : "OH ", "always_show" : true },
+				"B 3" : { "label" : "TM2", "always_show" : true },
 				"C 4" : { "label" : "TM1", "always_show" : true },
 				"C#4" : { "label" : "CC ", "always_show" : true },
 				"D#4" : { "label" : "RC ", "always_show" : true },
-				"F 5" : { "label" : "PC1", "always_show" : true },
-				"G 5" : { "label" : "PC2", "always_show" : true }
+				"F 4" : { "label" : "BL ", "always_show" : true }
 			}
 		}
 	}

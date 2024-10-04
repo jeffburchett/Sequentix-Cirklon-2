@@ -1,415 +1,96 @@
 {
-    "instrument_data": {
-        "TR-8S": {
-            "midi_port": "2",
-            "midi_chan": 10,
-            "multi": false,
-            "presend_pgm": false,
-            "default_note": "C 3",
-            "default_patt": "CK",
-            "poly_spread": "off",
-            "no_bankL": false,
-            "no_bankM": false,
-            "no_xpose": false,
-            "no_fts": true,
-            "show_note_nums": false,
-            "no_thru": false,
-
-            "CC_defs": {
-                "CC_9": {
-                    "label": "Shufle",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_12": {
-                    "label": "ExInLv",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_14": {
-                    "label": "AutoFl",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_15": {
-                    "label": "MstrFX",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_16": {
-                    "label": "DlyLvl",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_17": {
-                    "label": "DlyTim",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_18": {
-                    "label": "DlyFed",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_19": {
-                    "label": "FXCtrl",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_20": {
-                    "label": "BDTune",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_23": {
-                    "label": "BDDecy",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_24": {
-                    "label": "BdLvl",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_25": {
-                    "label": "SDTune",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_28": {
-                    "label": "DCDecy",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_29": {
-                    "label": "SDLvl",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_46": {
-                    "label": "LTTune",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_47": {
-                    "label": "LTDecy",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_48": {
-                    "label": "LTLvl",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_49": {
-                    "label": "MTTune",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_50": {
-                    "label": "MTDecy",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_51": {
-                    "label": "MTLvl",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_52": {
-                    "label": "HTTune",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_53": {
-                    "label": "HTDecy",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_54": {
-                    "label": "HTLvl",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_55": {
-                    "label": "RSTune",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_56": {
-                    "label": "RSDecy",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_57": {
-                    "label": "RSLvl",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_58": {
-                    "label": "HTTune",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_59": {
-                    "label": "HCDecy",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_60": {
-                    "label": "HCLvl",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_61": {
-                    "label": "CHTune",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_62": {
-                    "label": "CHDecy",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_63": {
-                    "label": "CHLvl",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_70": {
-                    "label": "FillTrig",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_71": {
-                    "label": "Accent",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_80": {
-                    "label": "OHTune",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_81": {
-                    "label": "OHDecy",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_82": {
-                    "label": "OHLvl",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_83": {
-                    "label": "CCTune",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_84": {
-                    "label": "CCDecy",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_85": {
-                    "label": "CCLvl",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_86": {
-                    "label": "RCTune",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_87": {
-                    "label": "RCDecy",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_88": {
-                    "label": "RCLvl",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_91": {
-                    "label": "RevLvl",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_96": {
-                    "label": "BDCtrl",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_97": {
-                    "label": "SDCtrl",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_102": {
-                    "label": "LTCtrl",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_103": {
-                    "label": "MTCtrl",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_104": {
-                    "label": "HTCtrl",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_105": {
-                    "label": "RSCtrl",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_106": {
-                    "label": "HCCtrl",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_107": {
-                    "label": "CHCtrl",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_108": {
-                    "label": "OHCtrl",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_109": {
-                    "label": "CCCtrl",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                },
-                "CC_110": {
-                    "label": "RCCtrl",
-                    "min_val": 0,
-                    "max_val": 127,
-                    "start_val": 0
-                }
-            },
-
-            "track_values": {
-                "slot_1": {
-                    "MIDI_CC": 16,
-                    "label": "DlyLvl"
-                },
-                "slot_2": {
-                    "MIDI_CC": 17,
-                    "label": "DlyTim"
-                },
-                "slot_3": {
-                    "MIDI_CC": 18,
-                    "label": "DlyFed"
-                },
-                "slot_4": {
-                    "MIDI_CC": 96,
-                    "label": "RevLvl"
-                },
-                "slot_5": {
-                    "MIDI_CC": 15,
-                    "label": "MstrFX"
-                },
-                "slot_6": {
-                    "MIDI_CC": 19,
-                    "label": "FXCtrl"
-                },
-                "slot_7": {
-                    "track_control": "pgm"
-                },
-                "slot_8": {
-                    "track_control": "quant%"
-                },
-                "slot_9": {
-                    "track_control": "note%"
-                },
-                "slot_10": {
-                    "track_control": "noteC"
-                },
-                "slot_11": {
-                    "track_control": "velo%"
-                },
-                "slot_12": {
-                    "track_control": "veloC"
-                },
-                "slot_13": {
-                    "track_control": "leng%"
-                },
-                "slot_14": {
-                    "track_control": "tbase"
-                },
-                "slot_15": {
-                    "track_control": "octave"
-                },
-                "slot_16": {
-                    "track_control": "knob1"
-                },
-                "slot_17": {
-                    "track_control": "knob2"
-                }
-            },
-
-            "row_defs": {
-                "C 3" : { "label" : "BD ", "always_show" : true },
+	"instrument_data" :
+	{
+		"TR-8S" :
+		{
+			"midi_port" : 2,
+			"midi_chan" : 10,
+			"default_note" : "C 3",
+			"default_patt" : "CK",
+			"poly_spread" : "off",
+			"track_values" :
+			{
+				"slot_1" : { "MIDI_CC" : 16, "label" : "DlyLvl" },
+				"slot_2" : { "MIDI_CC" : 17, "label" : "DlyTim" },
+				"slot_3" : { "MIDI_CC" : 18, "label" : "DlyFed" },
+				"slot_4" : { "MIDI_CC" : 96, "label" : "RevLvl" },
+				"slot_5" : { "MIDI_CC" : 15, "label" : "MstrFX" },
+				"slot_6" : { "MIDI_CC" : 19, "label" : "FXCtrl" },
+				"slot_7" : { "track_control" : "pgm" },
+				"slot_8" : { "track_control" : "quant%" },
+				"slot_9" : { "track_control" : "note%" },
+				"slot_10" : { "track_control" : "noteC" },
+				"slot_11" : { "track_control" : "velo%" },
+				"slot_12" : { "track_control" : "veloC" },
+				"slot_13" : { "track_control" : "leng%" },
+				"slot_14" : { "track_control" : "tbase" },
+				"slot_15" : { "track_control" : "octave" },
+				"slot_16" : { "track_control" : "knob1" },
+				"slot_17" : { "track_control" : "knob2" }
+			},
+			
+			"CC_defs" :
+			{
+				"CC_9" : { "label" : "Shufle", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_12" : { "label" : "ExInLv", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_14" : { "label" : "AutoFl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_15" : { "label" : "MstrFX", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_16" : { "label" : "DlyLvl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_17" : { "label" : "DlyTim", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_18" : { "label" : "DlyFed", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_19" : { "label" : "FXCtrl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_20" : { "label" : "BDTune", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_23" : { "label" : "BDDecy", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_24" : { "label" : "BdLvl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_25" : { "label" : "SDTune", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_28" : { "label" : "DCDecy", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_29" : { "label" : "SDLvl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_46" : { "label" : "LTTune", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_47" : { "label" : "LTDecy", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_48" : { "label" : "LTLvl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_49" : { "label" : "MTTune", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_50" : { "label" : "MTDecy", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_51" : { "label" : "MTLvl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_52" : { "label" : "HTTune", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_53" : { "label" : "HTDecy", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_54" : { "label" : "HTLvl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_55" : { "label" : "RSTune", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_56" : { "label" : "RSDecy", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_57" : { "label" : "RSLvl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_58" : { "label" : "HTTune", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_59" : { "label" : "HCDecy", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_60" : { "label" : "HCLvl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_61" : { "label" : "CHTune", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_62" : { "label" : "CHDecy", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_63" : { "label" : "CHLvl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_70" : { "label" : "FillTr", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_71" : { "label" : "Accent", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_80" : { "label" : "OHTune", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_81" : { "label" : "OHDecy", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_82" : { "label" : "OHLvl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_83" : { "label" : "CCTune", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_84" : { "label" : "CCDecy", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_85" : { "label" : "CCLvl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_86" : { "label" : "RCTune", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_87" : { "label" : "RCDecy", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_88" : { "label" : "RCLvl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_91" : { "label" : "RevLvl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_96" : { "label" : "RevLvl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_97" : { "label" : "SDCtrl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_102" : { "label" : "LTCtrl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_103" : { "label" : "MTCtrl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_104" : { "label" : "HTCtrl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_105" : { "label" : "RSCtrl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_106" : { "label" : "HCCtrl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_107" : { "label" : "CHCtrl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_108" : { "label" : "OHCtrl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_109" : { "label" : "CCCtrl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_110" : { "label" : "RCCtrl", "min_val" : 0, "max_val" : 127, "start_val" : 0 }
+			},
+			
+			"row_defs" :
+			{
+				"C 3" : { "label" : "BD ", "always_show" : true },
 				"C#3" : { "label" : "RS ", "always_show" : true },
 				"D 3" : { "label" : "SD ", "always_show" : true },
 				"D#3" : { "label" : "HC ", "always_show" : true },
@@ -419,7 +100,8 @@
 				"B 3" : { "label" : "MT ", "always_show" : true },
 				"C#4" : { "label" : "CC ", "always_show" : true },
 				"D 4" : { "label" : "HT ", "always_show" : true },
-				"D#4" : { "label" : "RC ", "always_show" : true }            }
-        }
-    }
+				"D#4" : { "label" : "RC ", "always_show" : true }
+			}
+		}
+	}
 }

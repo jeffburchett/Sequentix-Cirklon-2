@@ -1,0 +1,69 @@
+{
+	"instrument_data" :
+	{
+		"Opsix" :
+		{
+			"midi_port" : 1,
+			"midi_chan" : 3,
+			"default_note" : "C 3",
+			"default_patt" : "CK",
+			"poly_spread" : "off",
+			"track_values" :
+			{
+				"slot_1" : { "MIDI_CC" : 1, "label" : "Mod" },
+				"slot_2" : { "MIDI_CC" : 74, "label" : "Cutoff" },
+				"slot_3" : { "MIDI_CC" : 71, "label" : "Reso" },
+				"slot_4" : { "MIDI_CC" : 81, "label" : "FX 1" },
+				"slot_5" : { "MIDI_CC" : 82, "label" : "FX 2" },
+				"slot_6" : { "MIDI_CC" : 83, "label" : "FX 3" },
+				"slot_7" : { "track_control" : "pgm" },
+				"slot_8" : { "track_control" : "quant%" },
+				"slot_9" : { "track_control" : "note%" },
+				"slot_10" : { "track_control" : "noteC" },
+				"slot_11" : { "track_control" : "velo%" },
+				"slot_12" : { "track_control" : "veloC" },
+				"slot_13" : { "track_control" : "leng%" },
+				"slot_14" : { "track_control" : "tbase" },
+				"slot_15" : { "track_control" : "octave" },
+				"slot_16" : { "track_control" : "knob1" },
+				"slot_17" : { "track_control" : "knob2" }
+			},
+			
+			"CC_defs" :
+			{
+				"CC_0" : { "label" : "MSBSel", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_1" : { "label" : "Mod", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_5" : { "label" : "GldTim", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_7" : { "label" : "Volume", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_10" : { "label" : "Pan", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_11" : { "label" : "Exprsn", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_64" : { "label" : "Damper", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_65" : { "label" : "GldMod", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_66" : { "label" : "Sosten", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_67" : { "label" : "Soft", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_70" : { "label" : "Algo", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_71" : { "label" : "Reso", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_73" : { "label" : "Attack", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_74" : { "label" : "Cutoff", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_79" : { "label" : "DecRel", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_81" : { "label" : "FX 1", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_82" : { "label" : "FX 2", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_83" : { "label" : "FX 3", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_102" : { "label" : "Op1Lvl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_103" : { "label" : "Op2Lvl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_104" : { "label" : "Op3Lvl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_105" : { "label" : "Op4Lvl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_106" : { "label" : "Op5Lvl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_107" : { "label" : "Op6Lvl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_108" : { "label" : "Op1Rat", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_109" : { "label" : "Op2Rat", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_110" : { "label" : "Op3Rat", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_111" : { "label" : "Op4Rat", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_112" : { "label" : "Op5Rat", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_113" : { "label" : "Op6Rat", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_120" : { "label" : "AllOff", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_121" : { "label" : "Reset", "min_val" : 0, "max_val" : 127, "start_val" : 0 }
+			}
+		}
+	}
+}
