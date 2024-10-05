@@ -20,6 +20,10 @@
 
 <p>Spot-tested and working for drums. Bass part not included in definition.</p>
 
+<h3>ASM Hydrasynth Keyboard</h3>
+
+<p>Spot-tested and working on firmware 2.0.0.</p>
+
 <h3>KORG opsix Altered FM Synthesizer</h3>
 
 <p>Spot-tested and working on firmware v2.0.0, but MIDI CCs have not been thoroughly QAed.</p>
