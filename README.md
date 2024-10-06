@@ -20,9 +20,17 @@
 
 <p>Spot-tested and working for drums. Bass part not included in definition.</p>
 
-<h3>ASM Hydrasynth Keyboard</h3>
+<h3>Access Virus TI2 61-key keyboard synthesizer</h3>
 
-<p>Spot-tested and working on firmware 2.0.0.</p>
+<p>Spot-tested and working on firmware 5.1.7.00, but MIDI CCs have not been thoroughly QAed.</p>
+
+<h3>ASM Hydrasynth keyboard synthesizer</h3>
+
+<p>Spot-tested and working on firmware 2.0.0, but MIDI CCs have not been thoroughly QAed.</p>
+
+<h3>Isla Instruments S2400 sampler</h3>
+
+<p>Spot-tested and working on firmware October 23, 2023 firmware, but MIDI CCs have not been thoroughly QAed.</p>
 
 <h3>KORG opsix Altered FM Synthesizer</h3>
 
