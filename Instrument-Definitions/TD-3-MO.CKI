@@ -1,0 +1,35 @@
+{
+	"instrument_data" :
+	{
+		"TD-3-MO" :
+		{
+			"midi_port" : 3,
+			"midi_chan" : 1,
+			"default_note" : "C 3",
+			"default_patt" : "P3",
+			"poly_spread" : "off",
+			"track_values" :
+			{
+				"slot_1" : { "MIDI_CC" : 74, "label" : "Cutoff" },
+				"slot_2" : { "MIDI_CC" : 120, "label" : "Accent" },
+				"slot_3" : { "track_control" : "pgm" },
+				"slot_4" : { "track_control" : "quant%" },
+				"slot_5" : { "track_control" : "note%" },
+				"slot_6" : { "track_control" : "noteC" },
+				"slot_7" : { "track_control" : "velo%" },
+				"slot_8" : { "track_control" : "veloC" },
+				"slot_9" : { "track_control" : "leng%" },
+				"slot_10" : { "track_control" : "tbase" },
+				"slot_12" : { "track_control" : "octave" },
+				"slot_13" : { "track_control" : "knob1" },
+				"slot_14" : { "track_control" : "knob2" }
+			},
+			
+			"CC_defs" :
+			{
+				"CC_74" : { "label" : "Cutoff", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_120" : { "label" : "Accent", "min_val" : 0, "max_val" : 127, "start_val" : 0 }
+			}
+		}
+	}
+}

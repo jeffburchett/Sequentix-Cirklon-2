@@ -28,13 +28,41 @@
 
 <p>Spot-tested and working on firmware 2.0.0, but MIDI CCs have not been thoroughly QAed.</p>
 
+<h3>Behringer TD-3-MO synthesizer</h3>
+
+<p>Spot-tested and working.</p>
+
 <h3>Isla Instruments S2400 sampler</h3>
 
 <p>Spot-tested and working on firmware October 23, 2023 firmware, but MIDI CCs have not been thoroughly QAed.</p>
 
+<h3>KORG ARP2600m synthesizer</h3>
+
+<p>Spot-tested and working.</p>
+
 <h3>KORG opsix Altered FM Synthesizer</h3>
 
 <p>Spot-tested and working on firmware v2.0.0, but MIDI CCs have not been thoroughly QAed.</p>
+
+<h3>Make Noise 0-Coast synthesizer</h3>
+
+<p>Spot-tested and working.</p>
+
+<h3>Moog Grandmother synthesizer (Grandma)</h3>
+
+<p>Spot-tested and working.</p>
+
+<h3>Moog Matriarch synthesizer</h3>
+
+<p>Spot-tested and working.</p>
+
+<h3>Moog Mother-32 synthesizer</h3>
+
+<p>Spot-tested and working.</p>
+
+<h3>Moog Subharmonicon synthesizer</h3>
+
+<p>Spot-tested and working.</p>
 
 <h3>Roland TR-8S drum machine</h3>
 

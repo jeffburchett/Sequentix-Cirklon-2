@@ -1,0 +1,53 @@
+{
+	"instrument_data" :
+	{
+		"Subharm" :
+		{
+			"midi_port" : 1,
+			"midi_chan" : 1,
+			"default_note" : "C 3",
+			"default_patt" : "P3",
+			"poly_spread" : "off",
+			"track_values" :
+			{
+				"slot_1" : { "MIDI_CC" : 4, "label" : "O1Freq" },
+				"slot_2" : { "MIDI_CC" : 103, "label" : "O1S1Fq" },
+				"slot_3" : { "MIDI_CC" : 104, "label" : "O1S2Fq" },
+				"slot_4" : { "MIDI_CC" : 12, "label" : "O2Freq" },
+				"slot_5" : { "MIDI_CC" : 105, "label" : "O1S1Fq" },
+				"slot_6" : { "MIDI_CC" : 106, "label" : "O1S2Fq" },
+				"slot_7" : { "MIDI_CC" : 23, "label" : "VCF_A" },
+				"slot_8" : { "MIDI_CC" : 24, "label" : "VCF_D" },
+				"slot_9" : { "MIDI_CC" : 28, "label" : "VCA_A" },
+				"slot_10" : { "MIDI_CC" : 29, "label" : "VCA_D" },
+				"slot_11" : { "MIDI_CC" : 113, "label" : "RtMLgc" },
+				"slot_12" : { "track_control" : "pgm" },
+				"slot_13" : { "track_control" : "quant%" },
+				"slot_14" : { "track_control" : "note%" },
+				"slot_15" : { "track_control" : "noteC" },
+				"slot_16" : { "track_control" : "velo%" },
+				"slot_17" : { "track_control" : "veloC" },
+				"slot_18" : { "track_control" : "leng%" },
+				"slot_19" : { "track_control" : "tbase" },
+				"slot_20" : { "track_control" : "octave" },
+				"slot_21" : { "track_control" : "knob1" },
+				"slot_22" : { "track_control" : "knob2" }
+			},
+			
+			"CC_defs" :
+			{
+				"CC_4" : { "label" : "O1Freq", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_12" : { "label" : "O2Freq", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_23" : { "label" : "VCF_A", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_24" : { "label" : "VCF_D", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_28" : { "label" : "VCA_A", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_29" : { "label" : "VCA_D", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_103" : { "label" : "O1S1Fq", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_104" : { "label" : "O1S2Fq", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_105" : { "label" : "O1S1Fq", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_106" : { "label" : "O1S2Fq", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_113" : { "label" : "RtMLgc", "min_val" : 0, "max_val" : 127, "start_val" : 0 }
+			}
+		}
+	}
+}

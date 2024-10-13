@@ -1,0 +1,65 @@
+{
+	"instrument_data" :
+	{
+		"Grandma" :
+		{
+			"midi_port" : 1,
+			"midi_chan" : 1,
+			"default_note" : "C 3",
+			"default_patt" : "P3",
+			"poly_spread" : "off",
+			"track_values" :
+			{
+				"slot_1" : { "MIDI_CC" : 1, "label" : "ModWhl" },
+				"slot_2" : { "MIDI_CC" : 3, "label" : "ModRat" },
+				"slot_3" : { "MIDI_CC" : 5, "label" : "GldTim" },
+				"slot_4" : { "MIDI_CC" : 8, "label" : "SeqRat" },
+				"slot_5" : { "MIDI_CC" : 12, "label" : "O2Freq" },
+				"slot_6" : { "MIDI_CC" : 74, "label" : "O1Oct" },
+				"slot_7" : { "MIDI_CC" : 75, "label" : "O2Oct" },
+				"slot_8" : { "MIDI_CC" : 90, "label" : "ClkDiv" },
+				"slot_9" : { "MIDI_CC" : 91, "label" : "A/SMod" },
+				"slot_10" : { "MIDI_CC" : 92, "label" : "Patern" },
+				"slot_11" : { "MIDI_CC" : 93, "label" : "SeqNum" },
+				"slot_12" : { "MIDI_CC" : 89, "label" : "KBOct" },
+				"slot_13" : { "track_control" : "pgm" },
+				"slot_14" : { "track_control" : "quant%" },
+				"slot_15" : { "track_control" : "note%" },
+				"slot_16" : { "track_control" : "noteC" },
+				"slot_17" : { "track_control" : "velo%" },
+				"slot_18" : { "track_control" : "veloC" },
+				"slot_19" : { "track_control" : "leng%" },
+				"slot_20" : { "track_control" : "tbase" },
+				"slot_21" : { "track_control" : "octave" },
+				"slot_22" : { "track_control" : "knob1" },
+				"slot_23" : { "track_control" : "knob2" }
+			},
+			
+			"CC_defs" :
+			{
+				"CC_1" : { "label" : "ModWhl", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_3" : { "label" : "ModRat", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_5" : { "label" : "GldTim", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_8" : { "label" : "SeqRat", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_12" : { "label" : "O2Freq", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_65" : { "label" : "GldPwr", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_69" : { "label" : "Hold", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_73" : { "label" : "Play", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_74" : { "label" : "O1Oct", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_75" : { "label" : "O2Oct", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_77" : { "label" : "OscSyn", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_85" : { "label" : "GldTyp", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_89" : { "label" : "KBOct", "min_val" : 0, "max_val" : 127, "start_val" : 64 },
+				"CC_90" : { "label" : "ClkDiv", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_91" : { "label" : "A/SMod", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_92" : { "label" : "Patern", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_93" : { "label" : "SeqNum", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_94" : { "label" : "LegGld", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_103" : { "label" : "GatGld", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_107" : { "label" : "PichUp", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_108" : { "label" : "PichDn", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_119" : { "label" : "KBTran", "min_val" : 0, "max_val" : 127, "start_val" : 64 }
+			}
+		}
+	}
+}

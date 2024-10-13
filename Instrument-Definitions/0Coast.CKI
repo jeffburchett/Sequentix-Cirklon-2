@@ -1,0 +1,48 @@
+{
+	"instrument_data" :
+	{
+		"0Coast" :
+		{
+			"midi_port" : 1,
+			"midi_chan" : 1,
+			"default_note" : "C 3",
+			"default_patt" : "P3",
+			"poly_spread" : "off",
+			"track_values" :
+			{
+				"slot_1" : { "track_control" : "pgm" },
+				"slot_2" : { "track_control" : "quant%" },
+				"slot_3" : { "track_control" : "note%" },
+				"slot_4" : { "track_control" : "noteC" },
+				"slot_5" : { "track_control" : "velo%" },
+				"slot_6" : { "track_control" : "veloC" },
+				"slot_7" : { "track_control" : "leng%" },
+				"slot_8" : { "track_control" : "tbase" },
+				"slot_9" : { "track_control" : "octave" },
+				"slot_10" : { "track_control" : "knob1" },
+				"slot_11" : { "track_control" : "knob2" }
+			},
+			
+			"CC_defs" :
+			{
+				"CC_102" : { "label" : "SetChA", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_103" : { "label" : "SetChB", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_104" : { "label" : "ChACVO", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_105" : { "label" : "ChBCVO", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_106" : { "label" : "ChAGtO", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_107" : { "label" : "ChBGtO", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_108" : { "label" : "ChABnd", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_109" : { "label" : "ChBBnd", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_110" : { "label" : "ChAAT", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_111" : { "label" : "ChBAT", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_112" : { "label" : "ChAVel", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_113" : { "label" : "ChBVel", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_114" : { "label" : "ClkPwr", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_116" : { "label" : "ClkDiv", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_117" : { "label" : "ArpPwr", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_118" : { "label" : "LegPwr", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_119" : { "label" : "ArpTyp", "min_val" : 0, "max_val" : 127, "start_val" : 0 }
+			}
+		}
+	}
+}

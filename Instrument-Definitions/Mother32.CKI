@@ -1,0 +1,45 @@
+{
+	"instrument_data" :
+	{
+		"Mother32" :
+		{
+			"midi_port" : 1,
+			"midi_chan" : 1,
+			"default_note" : "C 3",
+			"default_patt" : "P3",
+			"poly_spread" : "off",
+			"track_values" :
+			{
+				"slot_1" : { "MIDI_CC" : 1, "label" : "Asign1" },
+				"slot_2" : { "MIDI_CC" : 2, "label" : "Asign2" },
+				"slot_3" : { "MIDI_CC" : 4, "label" : "Asign3" },
+				"slot_4" : { "MIDI_CC" : 7, "label" : "Asign4" },
+				"slot_5" : { "MIDI_CC" : 65, "label" : "Portam" },
+				"slot_6" : { "MIDI_CC" : 5, "label" : "PrtTim" },
+				"slot_7" : { "MIDI_CC" : 64, "label" : "Sustan" },
+				"slot_9" : { "track_control" : "pgm" },
+				"slot_10" : { "track_control" : "quant%" },
+				"slot_11" : { "track_control" : "note%" },
+				"slot_12" : { "track_control" : "noteC" },
+				"slot_13" : { "track_control" : "velo%" },
+				"slot_14" : { "track_control" : "veloC" },
+				"slot_15" : { "track_control" : "leng%" },
+				"slot_16" : { "track_control" : "tbase" },
+				"slot_17" : { "track_control" : "octave" },
+				"slot_18" : { "track_control" : "knob1" },
+				"slot_19" : { "track_control" : "knob2" }
+			},
+			
+			"CC_defs" :
+			{
+				"CC_1" : { "label" : "Asign1", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_2" : { "label" : "Asign2", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_4" : { "label" : "Asign3", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_5" : { "label" : "PrtTim", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_7" : { "label" : "Asign4", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_64" : { "label" : "Sustan", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_65" : { "label" : "Portam", "min_val" : 0, "max_val" : 127, "start_val" : 0 }
+			}
+		}
+	}
+}

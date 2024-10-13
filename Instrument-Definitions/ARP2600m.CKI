@@ -1,0 +1,36 @@
+{
+	"instrument_data" :
+	{
+		"ARP2600m" :
+		{
+			"midi_port" : 1,
+			"midi_chan" : 1,
+			"default_note" : "C 3",
+			"default_patt" : "P3",
+			"poly_spread" : "off",
+			"track_values" :
+			{
+				"slot_1" : { "track_control" : "pgm" },
+				"slot_2" : { "track_control" : "quant%" },
+				"slot_3" : { "track_control" : "note%" },
+				"slot_4" : { "track_control" : "noteC" },
+				"slot_5" : { "track_control" : "velo%" },
+				"slot_6" : { "track_control" : "veloC" },
+				"slot_7" : { "track_control" : "leng%" },
+				"slot_8" : { "track_control" : "tbase" },
+				"slot_9" : { "track_control" : "octave" },
+				"slot_10" : { "track_control" : "knob1" },
+				"slot_11" : { "track_control" : "knob2" }
+			},
+			
+			"CC_defs" :
+			{
+				"CC_5" : { "label" : "PrtaTi", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_65" : { "label" : "Portam", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_69" : { "label" : "Hold2", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_120" : { "label" : "AllOff", "min_val" : 0, "max_val" : 127, "start_val" : 0 },
+				"CC_121" : { "label" : "Reset", "min_val" : 0, "max_val" : 127, "start_val" : 0 }
+			}
+		}
+	}
+}
